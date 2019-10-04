@@ -12,6 +12,8 @@ import CoreData
 
 @objc(Jokes)
 public class Jokes: NSManagedObject, Codable{
+    
+    
     public required init(from decoder: Decoder) throws{
         guard let description = NSEntityDescription.entity(forEntityName: "Jokes", in: CoreDataManager.shared.context) else { throw CoreDataError.invalidEntityDescription }
     }

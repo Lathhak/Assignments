@@ -83,7 +83,7 @@ extension ViewController: UITableViewDelegate{
     } else {
       removeFromFavorites(index: indexPath.row)
     }
-    print(favoriteColorList)
+    print(favoriteColorList) 
     justATableView.reloadData()
     
   }
