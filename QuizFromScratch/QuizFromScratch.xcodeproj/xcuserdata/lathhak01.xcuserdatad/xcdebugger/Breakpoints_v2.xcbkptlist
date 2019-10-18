@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "DA943821-B594-4F7D-921E-74778C1180E1"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8308D175-4B34-4C93-9108-B72B0807331A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuizFromScratch/View/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4660B749-43F5-4A9E-947F-1C6D240DAC69"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuizFromScratch/View/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "clickButton(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4660B749-43F5-4A9E-947F-1C6D240DAC69 - 7258a1e6633cdc22"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "QuizFromScratch.ViewController.timer.getter : __C.NSTimer"
+                  moduleName = "QuizFromScratch"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lathhak01/Desktop/OnlineBootCamp/QuizFromScratch/QuizFromScratch/View/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "59">
+               </Location>
+               <Location
+                  uuid = "4660B749-43F5-4A9E-947F-1C6D240DAC69 - 4848551a524ed0e3"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "QuizFromScratch.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; QuizFromScratch.ViewController"
+                  moduleName = "QuizFromScratch"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lathhak01/Desktop/OnlineBootCamp/QuizFromScratch/QuizFromScratch/View/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "889">
+               </Location>
+               <Location
+                  uuid = "4660B749-43F5-4A9E-947F-1C6D240DAC69 - 4db384e26d8d6198"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "QuizFromScratch.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;QuizFromScratch.ViewController&gt;"
+                  moduleName = "QuizFromScratch"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lathhak01/Desktop/OnlineBootCamp/QuizFromScratch/QuizFromScratch/View/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "820">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "13A12421-C8B5-45E3-B01A-4E937B995D80"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuizFromScratch/View/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "updateUI()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
