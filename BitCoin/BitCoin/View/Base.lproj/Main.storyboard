@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BitCoin" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ngM-Vp-1Ns">
+                                <rect key="frame" x="0.0" y="646" width="414" height="216"/>
+                            </pickerView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Jty-bP-SON">
+                                <rect key="frame" x="0.0" y="201" width="414" height="66"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Bitcoin" translatesAutoresizingMaskIntoConstraints="NO" id="Dgc-1J-OYw">
+                                        <rect key="frame" x="0.0" y="0.0" width="138" height="66"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="138" id="s1G-U2-Dxs"/>
+                                            <constraint firstAttribute="height" constant="66" id="zvK-g5-dua"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="BitCoinValue" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NU0-d5-L7s">
+                                        <rect key="frame" x="138" y="23" width="104.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Currency" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gsf-Cx-n4q">
+                                        <rect key="frame" x="242.5" y="23" width="171.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="Dgc-1J-OYw" firstAttribute="top" secondItem="Jty-bP-SON" secondAttribute="topMargin" id="CXq-bj-anm"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Jty-bP-SON" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="0VH-ic-hix"/>
+                            <constraint firstItem="Jty-bP-SON" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="157" id="17C-E8-yJj"/>
+                            <constraint firstItem="Jty-bP-SON" firstAttribute="trailing" secondItem="ngM-Vp-1Ns" secondAttribute="trailing" id="P9e-lZ-TKj"/>
+                            <constraint firstItem="ngM-Vp-1Ns" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="RNo-w9-T5f"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Jty-bP-SON" secondAttribute="trailing" id="kaf-hq-998"/>
+                            <constraint firstItem="Jty-bP-SON" firstAttribute="leading" secondItem="ngM-Vp-1Ns" secondAttribute="leading" id="xfD-IE-HXH"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="bitCoinLabel" destination="NU0-d5-L7s" id="zDY-fV-hcz"/>
+                        <outlet property="currencyLabel" destination="gsf-Cx-n4q" id="Qkb-SG-TA8"/>
+                        <outlet property="pickerLabel" destination="ngM-Vp-1Ns" id="c9h-gJ-Axw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="69.642857142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Bitcoin" width="216" height="233"/>
+    </resources>
+</document>
